@@ -4,4 +4,4 @@
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer
 /Library/Xcode/Templates/Project\ Templates/iOS/Application
 
-# POD FILE ALSO ADDED SO JUST ADDED REQUIRED PODS AND INSTALL PODS
+# POD file alse added So just add project required PODS and install pods

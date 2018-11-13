@@ -1,6 +1,6 @@
 //
 //  Utility.swift
-//  Energieq
+//  Emon
 //
 //  Created by Binate on 10/5/18.
 //  Copyright © 2018 Shah Yasin. All rights reserved.
@@ -42,15 +42,6 @@ class Utility: NSObject {
     class func getUserUUID() -> String{
         let value = UserDefaults.standard.object(forKey: Constants.UserUUID_Key) ?? ""
         return value as! String
-    }
-    
-    class func setUserProfileStatus(value: NSInteger){
-        UserDefaults.standard.set(value, forKey: Constants.UserProfile_Key)
-    }
-    
-    class func getUserProfileStatus() -> NSInteger{
-        let value = UserDefaults.standard.object(forKey: Constants.UserProfile_Key) ?? 0
-        return value as! NSInteger
     }
 
     

@@ -10,15 +10,15 @@ import UIKit
 
 class Constants: NSObject {
     #if PRODUCTION
-        static let BaseApi = "https://app.vindm.nu:8073/api/"
+        static let BaseApi = ""
     #else
-        static let BaseApi = "https://staging.vindm.nu:8073/api/"
+        static let BaseApi = ""
     #endif
     
     #if PRODUCTION
-    static let BaseSiteUrl = "https://app.vindm.nu"
+    static let BaseSiteUrl = ""
     #else
-    static let BaseSiteUrl = "https://staging.vindm.nu"
+    static let BaseSiteUrl = ""
     #endif
 
     
@@ -27,18 +27,6 @@ class Constants: NSObject {
     static let Logout = "logout/"
     static let Password_Reset = "password-reset/"
     static let User_Profile = "profile/"
-    static let Jobs = "jobs/"
-    static let Vacancy = "vacancy/"
-    static let Vacancy_Interst = "vacancy-interest/"
-    static let Career = "careers/"
-    static let TrainingItem = "training-item/"
-    static let Category = "job-category/"
-    static let UserCategoryItem = "user-category-item/"
-    static let Bulk = "bulk/"
-    static let Domain = "job-domain/"
-    static let CategoryItemValidation = "category-item-validation/"
-    static let FieldGroup = "field-group/"
-
     
 
     static let Http_Post = "POST"
@@ -56,25 +44,12 @@ class Constants: NSObject {
     static let Confirm_Password_Key = "confirm_password"
 
     static let   ResetPassword_VC     = "ResetPasswordVC"
-    static let Details_VC = "Details_VC"
-    static let      VaccancyDetailsV_C      = "VaccancyDetailsV_C"
-    static let      CategoryList_VC      = "CategoryList_VC"
-    static let      ProfileOverview_VC      = "ProfileOverview_VC"
-    static let Profile_Update_VC = "Update_Profile"
-    static let Terms_Conditions_VC = "Terms_ConditionsViewController"
-    
-    static let  detailsTableViewCell = "VaccancyDetailsTableViewCell"
-    static let  detailsCategoryTableViewCell = "VaccancyDetailsCategoryTableViewCell"
-    static let  favVacncyTableViewCell = "FavVaccancyTableViewCell"
-    static let  demoJobsCollectionViewCell = "DemoJobsCollectionViewCell"
 
 
     static let LoggedIn_Key  =  "loggedin"
     static let UserUUID_Key  =  "useruuid"
     static let UserToken_Key  =  "usertoken"
-    static let UserProfile_Key  =  "userprofilestatus"
     static let UserFrstTime_Key  =  "userFrstTime"
-    static let CategoryData       =  "CategoryData"
     static let AcceptedTerms_Key  =  "acceptedTerms"
 
     //static let primaryBlueColor = "#092A53"

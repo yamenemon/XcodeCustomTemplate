@@ -52,6 +52,7 @@
 						<string>Utilities/DateUtility.swift</string>
 						<string>Utilities/UIColor+Hexvalue.swift</string>
 						<string>Utilities/Utility.swift</string>
+						<string>Utilities/podfile.txt</string>
 					</array>
 				</dict>
 			</dict>
@@ -65,6 +66,15 @@
 			<string>Main.storyboard</string>
 			<key>SortOrder</key>
 			<integer>99</integer>
+		</dict>
+		<key>Utilities/podfile.txt</key>
+		<dict>
+			<key>Path</key>
+			<string>Utilities/podfile.txt</string>
+			<key>Group</key>
+			<array>
+				<string>Utilities</string>
+			</array>
 		</dict>
 		<key>Utilities/ApiRequest.swift</key>
 		<dict>
